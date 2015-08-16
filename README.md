@@ -4,4 +4,4 @@
 
 ## It also has a markdown file explaining inheritance and super 
 
-### Finally a link to a Medium blog post.
+### Finally a markdown file with a link to a Medium blog post.
