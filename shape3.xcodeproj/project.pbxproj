@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D2C72E751B811C0B00E8C5B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C72E741B811C0B00E8C5B5 /* main.m */; };
+		D2C72E7D1B811C2200E8C5B5 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C72E7C1B811C2200E8C5B5 /* Shape.m */; };
+		D2C72E801B811D3A00E8C5B5 /* square.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C72E7F1B811D3A00E8C5B5 /* square.m */; };
+		D2C72E831B8120DB00E8C5B5 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C72E821B8120DB00E8C5B5 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		D2C72E711B811C0B00E8C5B5 /* shape3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shape3; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C72E741B811C0B00E8C5B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C72E7B1B811C2200E8C5B5 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		D2C72E7C1B811C2200E8C5B5 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		D2C72E7E1B811D3A00E8C5B5 /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = square.h; sourceTree = "<group>"; };
+		D2C72E7F1B811D3A00E8C5B5 /* square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = square.m; sourceTree = "<group>"; };
+		D2C72E811B8120DB00E8C5B5 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D2C72E821B8120DB00E8C5B5 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,8 @@
 		D2C72E681B811C0B00E8C5B5 = {
 			isa = PBXGroup;
 			children = (
+				D2C72E7B1B811C2200E8C5B5 /* Shape.h */,
+				D2C72E7C1B811C2200E8C5B5 /* Shape.m */,
 				D2C72E731B811C0B00E8C5B5 /* shape3 */,
 				D2C72E721B811C0B00E8C5B5 /* Products */,
 			);
@@ -58,6 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				D2C72E741B811C0B00E8C5B5 /* main.m */,
+				D2C72E811B8120DB00E8C5B5 /* Circle.h */,
+				D2C72E821B8120DB00E8C5B5 /* Circle.m */,
+				D2C72E7E1B811D3A00E8C5B5 /* square.h */,
+				D2C72E7F1B811D3A00E8C5B5 /* square.m */,
 			);
 			path = shape3;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C72E751B811C0B00E8C5B5 /* main.m in Sources */,
+				D2C72E831B8120DB00E8C5B5 /* Circle.m in Sources */,
+				D2C72E7D1B811C2200E8C5B5 /* Shape.m in Sources */,
+				D2C72E801B811D3A00E8C5B5 /* square.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
