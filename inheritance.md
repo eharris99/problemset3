@@ -1,6 +1,6 @@
 ###Inheritance is when you create a parent class (like Person or Shape) and then create multiple child classes that inherit methods from the parent.
 
-### The child class (like its parent) is created by going File-> New -> File -> Cocoa Touch Class and then naming it, and choosing to make it a subclass. The first class has to be a subclass of NSObject. After that new classes can be subclasses of the object created by the program, like Person or Shape.
+### The child class (like its parent) is created by going File-> New -> File -> Cocoa Touch Class and then naming it, and choosing to make it a subclass. The first class has to be a subclass of NSObject. After that new classes can be subclasses of the class you created, like Person or Shape.
 
 ### The child can override the parent by putting a new implementation inside an old method name. Or it can continue to use the parent's method by using the super class
 
